@@ -1,0 +1,291 @@
+@import url("rangeable.min.css");
+@font-face {
+  src: url(Fonts/Cinzel-ExtraBold.ttf);
+  font-family: Cinzel;
+}
+@font-face {
+  src: url(Fonts/Faustina-Light.ttf);
+  font-family: Faustina-Light;
+}
+@font-face {
+  src: url(Fonts/Faustina-Regular.ttf);
+  font-family: Faustina-Regular;
+}
+
+
+.all_wrapper {
+    display: grid;
+    grid-template-columns: 10fr 1fr 50fr;
+}
+
+.menu_wrapper {
+  background-color: #e6e6e6;
+}
+
+.vertical_line {
+  height: 40vw;
+}
+
+.graph_wrapper {
+  background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.Title_Box {
+  margin-left: 25px;
+  margin-top: 25px;
+  font-family: Cinzel;
+  color: #154101;
+  width: 100%
+}
+
+.btn_box {
+    margin-left: 25px;
+    margin-top: 25px;
+    font-family: Faustina-Regular;
+}
+
+
+button {
+  font-family: inherit;
+  font-size: 1em;
+}
+
+select {
+  font-family: inherit;
+  font-size: 1em;
+}
+
+.info_container {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr 50fr;
+  height: 3vw;
+}
+
+
+.LR_box {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 100%;
+  height: 65%;
+  width: 80%;
+  background-color:rgb(168, 168, 168);
+  border-radius: 5px;
+}
+
+.LR_input > label,
+.LR_input > input {
+  margin-left: 5px;
+}
+
+.LR_set {
+  vertical-align: baseline;
+}
+
+.resSetBtn {
+  margin-top: 12%;
+  height: 80%;
+}
+
+.detail_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80%;
+  width: 100%;
+  background-color:rgb(168, 168, 168);
+  border-radius: 5px;
+  align-items: center;
+}
+
+.detail {
+  background-color: rgb(173, 173, 173);
+  width: 20%;
+  height: 100%;
+  border-radius: 2px;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  align-items: center;
+  font-family: Faustina-Regular;
+}
+
+.detail_type {
+  margin-left: 15px;
+}
+
+.detail_entry {
+
+}
+
+.measurement_box {
+  display: grid;
+  grid-template-columns: 10fr 3fr;
+  height: 80%;
+  width: 100%;
+  background-color:rgb(168, 168, 168);
+  border-radius: 5px;
+  align-items: center;
+  font-family: Faustina-Regular;
+}
+
+.csvBTNS {
+
+  vertical-align: baseline;
+
+}
+
+.recordBTN {
+  margin-top: 10%;
+  height: 40%;
+  width: 60px
+}
+
+.saveBTN {
+  margin-top: 6%;
+  height: 40%;
+  width: 60px
+}
+
+.csv_sample_amount {
+  font-size: 90%;
+}
+
+.csv_sample_max {
+  font-size: 90%;
+  color: #01410b;
+}
+
+.csv_text_info {
+  margin-left: 5px;
+}
+
+.status_box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 37% 35% 23%;
+  justify-items: center;
+  height: 100px;
+  width: 80%;
+  background-color:rgb(2, 165, 29);
+  border-radius: 5px;
+}
+
+.status_top_text {
+  font-weight: bold;
+  font-size: 110%;
+  margin-top: 5%;
+}
+
+.overcurrent_status {
+  font-size: 120%;
+}
+
+.greenResetBTN {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+}
+
+.orangeResetBTN {
+  background-color: #ff7a0e;
+  border: none;
+  border-radius: 5px;
+  transition-duration: 0.2s;
+}
+
+.orangeResetBTN:hover {
+  background-color: #f8a323;
+}
+
+.slidecontainer {
+  width: 80%;
+}
+
+.rangeable-track {
+  background-color: darkslateblue
+  height 50px;
+  border-radius: 10vw;
+}
+
+.rangeable-handle {
+  border-width: 0px;
+	background-color: #246605;
+	width: 10px;
+	height: 10px;
+}
+
+.rangeable-tooltip {
+  background-color: rgb(19, 131, 34);
+  border-radius: 3px;
+  height: 18px;
+  font-size: 85%;
+  font-family: Faustina-Regular;
+}
+
+
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider1 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(31, 31, 31);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider1:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider1 {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider1 {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider1:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider1.round {
+    border-radius: 34px;
+  }
+  
+  .slider1.round:before {
+    border-radius: 50%;
+  }

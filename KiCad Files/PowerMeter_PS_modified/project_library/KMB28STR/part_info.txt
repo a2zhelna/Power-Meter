@@ -1,0 +1,9 @@
+Manufacturer=SMC Diode Solutions
+PartNumber=KMB28STR
+PartCategory=Bridge Rectifier
+PackageCategory=Small Outline Packages
+PinCount=4
+Version=1.1
+Released=2021-02-22 06:54:31
+Downloaded=2022-11-08 00:28:49
+3D=Y

@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "KMB28STR"
+   (description "BRIDGE RECT 1PHASE 80V 2A MBS")
+   (family "ANA")
+   (package "SOP250P700X290-4N")
+   (attribute "Datasheet Link" "http://www.smc-diodes.com/propdf/KMB22S%20THRU%20KMB225S%20N1952%20REV.A.pdf")
+   (attribute "Geometry.Height" "2.9mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "SMC Diode Solutions")
+   (attribute "Manufacturer_Part_Number" "KMB28STR")
+   (gate
+    (symbol "KMB28STR")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+    (pin "~_2" 4 PS)
+    (pin "~_1" 3 PS)
+   )
+  )
+  (symbol "KMB28STR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP250P700X290-4N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -4.2 2.725)
+      (pt 4.2 2.725)
+      (pt 4.2 -2.725)
+      (pt -4.2 -2.725)
+      (pt -4.2 2.725))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.925 2.362)
+      (pt 1.925 2.362)
+      (pt 1.925 -2.362)
+      (pt -1.925 -2.362)
+      (pt -1.925 2.362))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.925 -0.138)
+      (pt 0.575 2.362))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.75 2.362)
+      (pt 1.75 2.362)
+      (pt 1.75 -2.362)
+      (pt -1.75 -2.362)
+      (pt -1.75 2.362))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.95 2.025)
+      (pt -2.1 2.025))))
+   (leg 1 (pt -3.025 1.25) (padstack 0))
+   (leg 2 (pt -3.025 -1.25) (padstack 0))
+   (leg 3 (pt 3.025 -1.25) (padstack 0))
+   (leg 4 (pt 3.025 1.25) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.85 1.85 0 0 0))
+   )
+   (model "KMB28STR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

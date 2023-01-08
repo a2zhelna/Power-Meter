@@ -1,0 +1,561 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CD-HD201
+#/566996/176765/2.49/4/0/Bridge Rectifier
+DEF CD-HD201 BR 0 30 Y Y 1 F N
+F0 "BR" 850 300 50 H V L CNN
+F1 "CD-HD201" 850 200 50 H V L CNN
+F2 "CDHD201" 850 100 50 H I L CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/cd-hd2xl.pdf" 850 0 50 H I L CNN
+F4 "BOURNS - CD-HD201 - DIODE, BRIDGE RECT, 1-PH, 100V, SMD" 850 -100 50 H I L CNN "Description"
+F5 "1.22" 850 -200 50 H I L CNN "Height"
+F6 "652-CD-HD201" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/CD-HD201?qs=zwwtnr6GuIzfwAhsQ%2FElzw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CD-HD201" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X + 1 1000 0 200 L 50 50 0 0 P
+X ~_1 2 1000 -100 200 L 50 50 0 0 P
+X ~_2 3 0 -100 200 R 50 50 0 0 P
+X - 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 105027-0001
+#/322110/176765/2.49/9/3/Connector
+DEF 105027-0001 J 0 30 Y Y 1 F N
+F0 "J" 1250 300 50 H V L CNN
+F1 "105027-0001" 1250 200 50 H V L CNN
+F2 "105027-0001" 1250 100 50 H I L CNN
+F3 "http://www.molex.com/webdocs/datasheets/pdf/en-us/1050270001_MEMORY_CARD_SOCKET.pdf" 1250 0 50 H I L CNN
+F4 "Memory Card Connectors ASSY FOR 1.70H TFR HEADER" 1250 -100 50 H I L CNN "Description"
+F5 "" 1250 -200 50 H I L CNN "Height"
+F6 "538-105027-0001" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/105027-0001?qs=39WuQm6e6OkSeL34qdqRiA%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "105027-0001" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X DAT2 1 0 0 200 R 50 50 0 0 P
+X CD/DAT3 2 0 -100 200 R 50 50 0 0 P
+X CMD 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 0 -300 200 R 50 50 0 0 P
+X CLK 5 0 -400 200 R 50 50 0 0 P
+X VSS 6 1400 0 200 L 50 50 0 0 P
+X DAT0 7 1400 -100 200 L 50 50 0 0 P
+X DAT1 8 1400 -200 200 L 50 50 0 0 P
+X SWITCH 9 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FH23-15S-0.3SHAW_05_
+#/936081/176765/2.49/15/0/Connector
+DEF FH23-15S-0.3SHAW_05_ J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "FH23-15S-0.3SHAW_05_" 750 200 50 H V L CNN
+F2 "FH2315S03SHAW05" 750 100 50 H I L CNN
+F3 "https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=FH23-15S-0.3SHAW(05)" 750 0 50 H I L CNN
+F4 "Hirose FH23 Series 0.3mm Pitch 15 Way Straight SMT Female FPC Connector Locking Mechanism, LIF Bottom Contact" 750 -100 50 H I L CNN "Description"
+F5 "2.84" 750 -200 50 H I L CNN "Height"
+F6 "798-FH2315S0.3SHAW05" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH23-15S-03SHAW05?qs=0N%252BVULUZFj%2F%2FyfoYo7p8Ig%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Hirose" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "FH23-15S-0.3SHAW(05)" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 11 11 0 -500 200 R 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+X 13 13 0 -600 200 R 50 50 0 0 P
+X 14 14 900 -600 200 L 50 50 0 0 P
+X 15 15 0 -700 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model VLS2012ET-2R2M-CA
+#/1090000/176765/2.49/2/2/Inductor
+DEF VLS2012ET-2R2M-CA L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "VLS2012ET-2R2M-CA" 650 150 50 H V L CNN
+F2 "VLS2012" 650 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_vls2012e-ca_en.pdf" 650 -50 50 H I L CNN
+F4 "Inductors for power circuits, Wound Ferrite" 650 -150 50 H I L CNN "Description"
+F5 "1.2" 650 -250 50 H I L CNN "Height"
+F6 "810-VLS2012ET2R2M-CA" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/VLS2012ET-2R2M-CA?qs=u4%252BEJ9urDATCJzKSEHAkjg%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "VLS2012ET-2R2M-CA" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MAX30101EFD+T
+#/566089/176765/2.49/14/4/Integrated Circuit
+DEF MAX30101EFD+T IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "MAX30101EFD+T" 1250 200 50 H V L CNN
+F2 "14-LEAD-OESIP" 1250 100 50 H I L CNN
+F3 "https://datasheets.maximintegrated.com/en/ds/MAX30101.pdf" 1250 0 50 H I L CNN
+F4 "Biometric Sensors Integrated Optical Sensor" 1250 -100 50 H I L CNN "Description"
+F5 "" 1250 -200 50 H I L CNN "Height"
+F6 "700-MAX30101EFD+T" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX30101EFD%2bT?qs=sITqEBh490kEm6CNcTH1tQ%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Maxim Integrated" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MAX30101EFD+T" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X N.C._1 1 0 0 200 R 50 50 0 0 P
+X SCL 2 0 -100 200 R 50 50 0 0 P
+X SDA 3 0 -200 200 R 50 50 0 0 P
+X PGND 4 0 -300 200 R 50 50 0 0 P
+X N.C._2 5 0 -400 200 R 50 50 0 0 P
+X N.C._3 6 0 -500 200 R 50 50 0 0 P
+X N.C._4 7 0 -600 200 R 50 50 0 0 P
+X N.C._5 8 1400 -600 200 L 50 50 0 0 P
+X VLED+_1 9 1400 -500 200 L 50 50 0 0 P
+X VLED+_2 10 1400 -400 200 L 50 50 0 0 P
+X VDD 11 1400 -300 200 L 50 50 0 0 P
+X GND 12 1400 -200 200 L 50 50 0 0 P
+X ~INT 13 1400 -100 200 L 50 50 0 0 P
+X N.C._6 14 1400 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CX2016DB32000D0FLJCC
+#/569577/176765/2.49/4/4/Crystal or Oscillator
+DEF CX2016DB32000D0FLJCC Y 0 30 Y Y 1 F N
+F0 "Y" 1050 300 50 H V L CNN
+F1 "CX2016DB32000D0FLJCC" 1050 200 50 H V L CNN
+F2 "CX2016DB32000D0FLJCC" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/CX2016DB32000D0FLJCC.pdf" 1050 0 50 H I L CNN
+F4 "AVX - CX2016DB32000D0FLJCC - CRYSTAL, 32MHZ, 8PF, 2 X 1.6MM" 1050 -100 50 H I L CNN "Description"
+F5 "0.45" 1050 -200 50 H I L CNN "Height"
+F6 "581-CX2016DB32DFLJCC" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=581-CX2016DB32DFLJCC" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "AVX" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CX2016DB32000D0FLJCC" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X HOT_1 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1200 -100 200 L 50 50 0 0 P
+X HOT_2 3 1200 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SML-LX0404SIUPGUSB
+#/290713/176765/2.49/4/4/LED
+DEF SML-LX0404SIUPGUSB LED 0 30 Y Y 1 F N
+F0 "LED" 1850 300 50 H V L CNN
+F1 "SML-LX0404SIUPGUSB" 1850 200 50 H V L CNN
+F2 "SML-LX0404SIUPGUSB" 1850 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1153815.pdf" 1850 0 50 H I L CNN
+F4 "LED,0404,Surface Mount,QuasarBrite Lumex SML-LX0404SIUPGUSB RGB LED, 465 (Blue) nm, 518 (Green) nm, 632 (Red) nm 0404 Clear, Rectangle Lens SMD package" 1850 -100 50 H I L CNN "Description"
+F5 "" 1850 -200 50 H I L CNN "Height"
+F6 "Lumex" 1850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SML-LX0404SIUPGUSB" 1850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "696-LX0404SIUPGUSB" 1850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Lumex/SML-LX0404SIUPGUSB?qs=iPumNTI%2F3jXoZkWlWVrBPw%3D%3D" 1850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SML-LX0404SIUPGUSB" 1850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sml-lx0404siupgusb/lumex" 1850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X COMMON_ANODE 1 2000 0 200 L 50 50 0 0 P
+X CATHODE_RED 2 2000 -100 200 L 50 50 0 0 P
+X CATHODE_BLUE 3 0 -100 200 R 50 50 0 0 P
+X CATHODE_GREEN 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1800 100 1800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DF52-6S-0.8H_21_
+#/252838/176765/2.49/8/4/Connector
+DEF DF52-6S-0.8H_21_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "DF52-6S-0.8H_21_" 650 200 50 H V L CNN
+F2 "DF526S08H21" 650 100 50 H I L CNN
+F3 "https://www.hirose.com/product/en/products/DF52/DF52-6S-0.8H%2821%29/" 650 0 50 H I L CNN
+F4 "Hirose DF52 52 Series 0.8mm Pitch 6 Way Right Angle Female FPC Connector" 650 -100 50 H I L CNN "Description"
+F5 "1" 650 -200 50 H I L CNN "Height"
+F6 "798-DF52-6S-0.8H21" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF52-6S-08H21?qs=%2FKR40Cd6GUr23EW4%2Fhdjiw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Hirose" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DF52-6S-0.8H(21)" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 800 0 200 L 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 800 -200 200 L 50 50 0 0 P
+X 4 4 800 -300 200 L 50 50 0 0 P
+X 5 5 800 -400 200 L 50 50 0 0 P
+X 6 6 800 -500 200 L 50 50 0 0 P
+X 7 7 0 0 200 R 50 50 0 0 P
+X 8 8 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NX2301PVL
+#/926517/176765/2.49/3/3/MOSFET (P-Channel)
+DEF NX2301PVL Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "NX2301PVL" 450 50 50 H V L CNN
+F2 "SOT95P230X110-3N" 450 -50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/NX2301PVL.pdf" 450 -150 50 H I L CNN
+F4 "MOSFET NX2301P - 20V, 2A P-channel Trench MOSFET" 450 -250 50 H I L CNN "Description"
+F5 "1.1" 450 -350 50 H I L CNN "Height"
+F6 "771-NX2301PVL" 450 -450 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/NX2301PVL?qs=45Avz0nZxhtdfVvpFKF7Ew%3D%3D" 450 -550 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "NX2301PVL" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 B
+X ~ 3 300 400 100 D 50 50 0 0 B
+X ~ 2 300 -200 100 U 50 50 0 0 B
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B3W-9000-RG2C
+#/724099/176765/2.49/8/0/Switch
+DEF B3W-9000-RG2C S 0 30 Y Y 1 F N
+F0 "S" 1150 300 50 H V L CNN
+F1 "B3W-9000-RG2C" 1150 200 50 H V L CNN
+F2 "B3W9000RG2C" 1150 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/B3W-9000-RG2C.pdf" 1150 0 50 H I L CNN
+F4 "Illuminated Tactile Switches Red & Green LED Trans Cap" 1150 -100 50 H I L CNN "Description"
+F5 "11.4" 1150 -200 50 H I L CNN "Height"
+F6 "653-B3W-9000-RG2C" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3W-9000-RG2C?qs=QTkYtwcxD6NNQk1oSF8osQ%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Omron Electronics" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "B3W-9000-RG2C" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 0 -100 200 R 50 50 0 0 P
+X COM_1 3 0 -200 200 R 50 50 0 0 P
+X COM_2 4 0 -300 200 R 50 50 0 0 P
+X A_RED A1 1300 0 200 L 50 50 0 0 P
+X A_GREEN A2 1300 -100 200 L 50 50 0 0 P
+X K_RED K1 1300 -200 200 L 50 50 0 0 P
+X K_GREEN K2 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MPU-3050
+#/1285217/176765/2.49/25/2/Integrated Circuit
+DEF MPU-3050 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 700 50 H V L CNN
+F1 "MPU-3050" 1050 600 50 H V L CNN
+F2 "ITG3050" 1050 500 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/gyro/data_sheet/ps-mpu-3050a-00-v2-7.pdf" 1050 400 50 H I L CNN
+F4 "Triple-Axis Gyroscope with Embedded Digital Motion Processor (DMP)" 1050 300 50 H I L CNN "Description"
+F5 "" 1050 200 50 H I L CNN "Height"
+F6 "N/A" 1050 100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/MPU-3050?qs=BJlw7L4Cy78n6tiwHUpoMA%3D%3D" 1050 0 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 1050 -100 50 H I L CNN "Manufacturer_Name"
+F9 "MPU-3050" 1050 -200 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CLKIN 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X NC_2 3 0 -200 200 R 50 50 0 0 P
+X NC_3 4 0 -300 200 R 50 50 0 0 P
+X NC_4 5 0 -400 200 R 50 50 0 0 P
+X AUX_DA 6 0 -500 200 R 50 50 0 0 P
+X AUX_CL 7 300 -1200 200 U 50 50 0 0 P
+X VLOGIC 8 400 -1200 200 U 50 50 0 0 P
+X AD0 9 500 -1200 200 U 50 50 0 0 P
+X REGOUT 10 600 -1200 200 U 50 50 0 0 P
+X FSYNC 11 700 -1200 200 U 50 50 0 0 P
+X INT 12 800 -1200 200 U 50 50 0 0 P
+X VDD 13 1200 -500 200 L 50 50 0 0 P
+X NC_5 14 1200 -400 200 L 50 50 0 0 P
+X NC_6 15 1200 -300 200 L 50 50 0 0 P
+X NC_7 16 1200 -200 200 L 50 50 0 0 P
+X NC_8 17 1200 -100 200 L 50 50 0 0 P
+X GND 18 1200 0 200 L 50 50 0 0 P
+X RESV_1 19 900 700 200 D 50 50 0 0 P
+X CPOUT 20 800 700 200 D 50 50 0 0 P
+X RESV_2 21 700 700 200 D 50 50 0 0 P
+X CLKOUT 22 600 700 200 D 50 50 0 0 P
+X SCL 23 500 700 200 D 50 50 0 0 P
+X SDA 24 400 700 200 D 50 50 0 0 P
+X EP 25 300 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1000 500 1000 -1000 200 -1000 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CT_DBLP31.12-6C5D-56-J6U6-20-R18
+#/2190031/176765/2.49/3/4/LED
+DEF CT_DBLP31.12-6C5D-56-J6U6-20-R18 LED 0 30 Y Y 1 F N
+F0 "LED" 850 300 50 H V L CNN
+F1 "CT_DBLP31.12-6C5D-56-J6U6-20-R18" 850 200 50 H V L CNN
+F2 "CTDBLP31126C5D56J6U620R18" 850 100 50 H I L CNN
+F3 "" 850 0 50 H I L CNN
+F4 "Standard LEDs - SMD Green 536nm Firefly E2218" 850 -100 50 H I L CNN "Description"
+F5 "" 850 -200 50 H I L CNN "Height"
+F6 "720-CTDBLP31A6091" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/CT-DBLP3112-6C5D-56-J6U6-20-R18?qs=vLWxofP3U2xgbqKYEOstuw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "OSRAM" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CT DBLP31.12-6C5D-56-J6U6-20-R18" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X K_1 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X K_2 3 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model VEMD5080X01
+#/786572/176765/2.49/4/4/Diode
+DEF VEMD5080X01 D 0 30 Y Y 1 F N
+F0 "D" 850 300 50 H V L CNN
+F1 "VEMD5080X01" 850 200 50 H V L CNN
+F2 "VEMD5080X01" 850 100 50 H I L CNN
+F3 "" 850 0 50 H I L CNN
+F4 "PIN Photodiode 45uA 350-1070nm QFN" 850 -100 50 H I L CNN "Description"
+F5 "0.9" 850 -200 50 H I L CNN "Height"
+F6 "78-VEMD5080X01" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VEMD5080X01?qs=AQlKX63v8RsWDlTFdMJfOQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "VEMD5080X01" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X K_1 1 0 -100 200 R 50 50 0 0 P
+X K_2 2 1000 -100 200 L 50 50 0 0 P
+X NC 3 0 0 200 R 50 50 0 0 N
+X A 4 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EW60-1A3-CL12D04,00000
+#/892489/176765/2.49/9/4/Relay or Contactor
+DEF EW60-1A3-CL12D04,00000 K 0 30 Y Y 1 F N
+F0 "K" 1050 300 50 H V L CNN
+F1 "EW60-1A3-CL12D04,00000" 1050 200 50 H V L CNN
+F2 "EW601A3CL12D0400000" 1050 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English" 1050 0 50 H I L CNN
+F4 "Power Relay 12VDC 60A SPST-NO THT" 1050 -100 50 H I L CNN "Description"
+F5 "30.4" 1050 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "EW60-1A3-CL12D04,00000" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "655-2071366-2" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/EW60-1A3-CL12D0400000?qs=Uem7cGQRk%252BoJnFXdvLpeyQ%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "EW60-1A3-CL12D04,00000" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ew60-1a3-cl12d0400000/te-connectivity" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 0 -100 200 R 50 50 0 0 P
+X NO_3 3 0 -200 200 R 50 50 0 0 P
+X COM_1 4 0 -300 200 R 50 50 0 0 P
+X COM_2 5 0 -400 200 R 50 50 0 0 P
+X COM_3 6 1200 0 200 L 50 50 0 0 P
+X S-/R- A1 1200 -100 200 L 50 50 0 0 P
+X S+ A2 1200 -200 200 L 50 50 0 0 P
+X R+ A3 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CPH3225A
+#/313905/176765/2.49/2/4/Capacitor Polarised
+DEF CPH3225A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "CPH3225A" 350 150 50 H V L CNN
+F2 "CPH3225A" 350 50 50 H I L CNN
+F3 "https://www.sii.co.jp/en/me/datasheets/chip-capacitor/cph3225a/" 350 -50 50 H I L CNN
+F4 "Supercapacitors / Ultracapacitors Reflow EDLC 3.3V, 11mF, 160 Ohm" 350 -150 50 H I L CNN "Description"
+F5 "1" 350 -250 50 H I L CNN "Height"
+F6 "628-CPH3225A" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=628-CPH3225A" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Seiko Instruments Micro Energy" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CPH3225A" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RB521VM-40TE-17
+#/939192/176765/2.49/2/2/Schottky Diode
+DEF RB521VM-40TE-17 D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "RB521VM-40TE-17" 500 250 50 H V L CNN
+F2 "UMD2_SOD-323F" 500 150 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/aeb43656c30f8489f8d75e72af720293.pdf" 500 50 50 H I L CNN
+F4 "Schottky Barrier Diode: RB521VM-40 is low V<sub>F</sub> high reliability Schottky Barrier Diode, suitable for small current rectification." 500 -50 50 H I L CNN "Description"
+F5 "" 500 -150 50 H I L CNN "Height"
+F6 "755-RB521VM-40TE-17" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RB521VM-40TE-17?qs=4v%252BiZTmLVHHmnWNJKQKplQ%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "RB521VM-40TE-17" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EPC2054
+#/15476217/176765/2.49/4/3/Transistor
+DEF EPC2054 Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "EPC2054" 850 200 50 H V L CNN
+F2 "EPC2054" 850 100 50 H I L CNN
+F3 "https://epc-co.com/epc/Portals/0/epc/documents/datasheets/EPC2054_datasheet.pdf" 850 0 50 H I L CNN
+F4 "Enhancement Mode Power Transistor" 850 -100 50 H I L CNN "Description"
+F5 "0.638" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "EPC" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "EPC2054" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X G 1 0 0 200 R 50 50 0 0 P
+X S_1 2 0 -100 200 R 50 50 0 0 P
+X D 3 1000 0 200 L 50 50 0 0 P
+X S_2 4 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BSR92PH6327XTSA1
+#/340435/176765/2.49/3/3/MOSFET (P-Channel)
+DEF BSR92PH6327XTSA1 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "BSR92PH6327XTSA1" 450 50 50 H V L CNN
+F2 "SOT95P285X135-3N" 450 -50 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/Infineon-BSR92P-DataSheet-v01_06-EN.pdf?fileId=db3a304412b407950112b42ac3aa43e1" 450 -150 50 H I L CNN
+F4 "P-Channel MOSFET, 140 mA, 250 V, 3-Pin SC-59 Infineon BSR92PH6327XTSA1" 450 -250 50 H I L CNN "Description"
+F5 "1.35" 450 -350 50 H I L CNN "Height"
+F6 "726-BSR92PH6327XTSA1" 450 -450 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSR92PH6327XTSA1?qs=ElbTHwEn1CDI2SvTlqIp6w%3D%3D" 450 -550 50 H I L CNN "Mouser Price/Stock"
+F8 "Infineon" 450 -650 50 H I L CNN "Manufacturer_Name"
+F9 "BSR92PH6327XTSA1" 450 -750 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model L18P003D15
+#/1132352/176765/2.49/6/3/Undefined or Miscellaneous
+DEF L18P003D15 U 0 30 Y Y 1 F N
+F0 "U" 2350 300 50 H V L CNN
+F1 "L18P003D15" 2350 200 50 H V L CNN
+F2 "L18P003D15" 2350 100 50 H I L CNN
+F3 "https://www.tamuracorp.com/clientuploads/pdfs/engineeringdocs/L18PXXXD15.pdf" 2350 0 50 H I L CNN
+F4 "Board Mount Current Sensors CURRENT SENSOR ( 3A; 15V)" 2350 -100 50 H I L CNN "Description"
+F5 "15.7" 2350 -200 50 H I L CNN "Height"
+F6 "838-L18P003D15" 2350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Tamura/L18P003D15?qs=4hAuUsLPbtonHZz%252BmYE2Ig%3D%3D" 2350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Tamura" 2350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "L18P003D15" 2350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X -VCC(-15V) 1 2500 -300 200 L 50 50 0 0 P
+X GND 2 2500 -200 200 L 50 50 0 0 P
+X +VCC(+15V) 3 2500 -100 200 L 50 50 0 0 P
+X VOUT 4 2500 0 200 L 50 50 0 0 P
+X PRIMARY_INPUT_CURRENT_(+)_ 5 0 -100 200 R 50 50 0 0 P
+X PRIMARY_INPUT_CURRENT_(-)_ 6 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 2300 100 2300 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TS360ILS_R1_00001
+#/16330813/176765/2.49/4/3/Integrated Circuit
+DEF TS360ILS_R1_00001 IC 0 30 Y Y 1 F N
+F0 "IC" 750 300 50 H V L CNN
+F1 "TS360ILS_R1_00001" 750 200 50 H V L CNN
+F2 "SOP400P650X145-4N" 750 100 50 H I L CNN
+F3 "https://www.mouser.co.id/datasheet/2/1057/TS360ILS-1877238.pdf" 750 0 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers MICRO SURFACE MOUNT SCHOTTKY BRIDGE 60V 3A TDI" 750 -100 50 H I L CNN "Description"
+F5 "1.45" 750 -200 50 H I L CNN "Height"
+F6 "241-TS360ILSR100001" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panjit/TS360ILS_R1_00001?qs=sPbYRqrBIVlciIw6xf5DwA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "PANJIT" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TS360ILS_R1_00001" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X + 1 0 0 200 R 50 50 0 0 P
+X - 2 0 -100 200 R 50 50 0 0 P
+X ~_2 4 900 0 200 L 50 50 0 0 P
+X ~_1 3 900 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

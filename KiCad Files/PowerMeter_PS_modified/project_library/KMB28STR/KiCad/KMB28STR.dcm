@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KMB28STR
+D BRIDGE RECT 1PHASE 80V 2A MBS
+K
+F http://www.smc-diodes.com/propdf/KMB22S%20THRU%20KMB225S%20N1952%20REV.A.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,16 @@
+.TS360ILS_R1_00001 :1 ;Schottky Diodes & Rectifiers MICRO SURFACE MOUNT SCHOTTKY BRIDGE 60V 3A TDI
+SOP400P650X145-4N
+*STM IC
+*NGS
+*PLB 1="+" 2="-" 3="~_1" 4="~_2"
+*MXP 4
+*DFN TS360ILS_R1_00001
+~!Mouser Part Number (241-TS360ILSR100001)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panjit/TS360ILS_R1_00001?qs=sPbYRqrBIVlciIw6xf5DwA%3D%3D)
+~!Manufacturer_Name (PANJIT)
+~!Manufacturer_Part_Number (TS360ILS_R1_00001)
+~!Link Datasheet (https://www.mouser.co.id/datasheet/2/1057/TS360ILS-1877238.pdf)
+~!Height (1.45mm)
+~!3D_Model (TS360ILS_R1_00001)
+TS360ILS_R1_00001
+1.1!U 2.1!U 4.1!U 3.1!U 

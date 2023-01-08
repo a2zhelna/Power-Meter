@@ -1,0 +1,2 @@
+The files without "_modified" in their name represent the PCB designs that are currently being used in the device.
+However, these PCBs needed some design changes with bodge wires and a few other components. These changes have been made in the files including "_modified".

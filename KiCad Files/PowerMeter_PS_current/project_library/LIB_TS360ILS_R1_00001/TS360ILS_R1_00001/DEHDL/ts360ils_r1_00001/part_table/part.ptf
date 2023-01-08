@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TS360ILS_R1_00001'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "PANJIT", "TS360ILS_R1_00001" (!) = "", "SOP400P650X145-4N", "Small Outline Packages", "241-TS360ILSR100001", "https://www.mouser.co.uk/ProductDetail/Panjit/TS360ILS_R1_00001?qs=sPbYRqrBIVlciIw6xf5DwA%3D%3D", "Schottky Diodes & Rectifiers MICRO SURFACE MOUNT SCHOTTKY BRIDGE 60V 3A TDI", "https://www.mouser.co.id/datasheet/2/1057/TS360ILS-1877238.pdf", "1.45 mm"
+END_PART
+
+END.

@@ -1,0 +1,129 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP CD-HD201
+D BOURNS - CD-HD201 - DIODE, BRIDGE RECT, 1-PH, 100V, SMD
+K
+F http://www.bourns.com/docs/Product-Datasheets/cd-hd2xl.pdf
+$ENDCMP
+#
+$CMP 105027-0001
+D Memory Card Connectors ASSY FOR 1.70H TFR HEADER
+K
+F http://www.molex.com/webdocs/datasheets/pdf/en-us/1050270001_MEMORY_CARD_SOCKET.pdf
+$ENDCMP
+#
+$CMP FH23-15S-0.3SHAW_05_
+D Hirose FH23 Series 0.3mm Pitch 15 Way Straight SMT Female FPC Connector Locking Mechanism, LIF Bottom Contact
+K
+F https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=FH23-15S-0.3SHAW(05)
+$ENDCMP
+#
+$CMP VLS2012ET-2R2M-CA
+D Inductors for power circuits, Wound Ferrite
+K
+F https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_vls2012e-ca_en.pdf
+$ENDCMP
+#
+$CMP MAX30101EFD+T
+D Biometric Sensors Integrated Optical Sensor
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX30101.pdf
+$ENDCMP
+#
+$CMP CX2016DB32000D0FLJCC
+D AVX - CX2016DB32000D0FLJCC - CRYSTAL, 32MHZ, 8PF, 2 X 1.6MM
+K
+F https://componentsearchengine.com/Datasheets/1/CX2016DB32000D0FLJCC.pdf
+$ENDCMP
+#
+$CMP SML-LX0404SIUPGUSB
+D LED,0404,Surface Mount,QuasarBrite Lumex SML-LX0404SIUPGUSB RGB LED, 465 (Blue) nm, 518 (Green) nm, 632 (Red) nm 0404 Clear, Rectangle Lens SMD package
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1153815.pdf
+$ENDCMP
+#
+$CMP DF52-6S-0.8H_21_
+D Hirose DF52 52 Series 0.8mm Pitch 6 Way Right Angle Female FPC Connector
+K
+F https://www.hirose.com/product/en/products/DF52/DF52-6S-0.8H%2821%29/
+$ENDCMP
+#
+$CMP NX2301PVL
+D MOSFET NX2301P - 20V, 2A P-channel Trench MOSFET
+K
+F https://componentsearchengine.com/Datasheets/1/NX2301PVL.pdf
+$ENDCMP
+#
+$CMP B3W-9000-RG2C
+D Illuminated Tactile Switches Red & Green LED Trans Cap
+K
+F https://componentsearchengine.com/Datasheets/1/B3W-9000-RG2C.pdf
+$ENDCMP
+#
+$CMP MPU-3050
+D Triple-Axis Gyroscope with Embedded Digital Motion Processor (DMP)
+K
+F https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/gyro/data_sheet/ps-mpu-3050a-00-v2-7.pdf
+$ENDCMP
+#
+$CMP CT_DBLP31.12-6C5D-56-J6U6-20-R18
+D Standard LEDs - SMD Green 536nm Firefly E2218
+K
+F 
+$ENDCMP
+#
+$CMP VEMD5080X01
+D PIN Photodiode 45uA 350-1070nm QFN
+K
+F 
+$ENDCMP
+#
+$CMP EW60-1A3-CL12D04,00000
+D Power Relay 12VDC 60A SPST-NO THT
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=EW60_Datasheet_07042016&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP CPH3225A
+D Supercapacitors / Ultracapacitors Reflow EDLC 3.3V, 11mF, 160 Ohm
+K
+F https://www.sii.co.jp/en/me/datasheets/chip-capacitor/cph3225a/
+$ENDCMP
+#
+$CMP RB521VM-40TE-17
+D Schottky Barrier Diode: RB521VM-40 is low V<sub>F</sub> high reliability Schottky Barrier Diode, suitable for small current rectification.
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/aeb43656c30f8489f8d75e72af720293.pdf
+$ENDCMP
+#
+$CMP EPC2054
+D Enhancement Mode Power Transistor
+K
+F https://epc-co.com/epc/Portals/0/epc/documents/datasheets/EPC2054_datasheet.pdf
+$ENDCMP
+#
+$CMP BSR92PH6327XTSA1
+D P-Channel MOSFET, 140 mA, 250 V, 3-Pin SC-59 Infineon BSR92PH6327XTSA1
+K
+F https://www.infineon.com/dgdl/Infineon-BSR92P-DataSheet-v01_06-EN.pdf?fileId=db3a304412b407950112b42ac3aa43e1
+$ENDCMP
+#
+$CMP L18P003D15
+D Board Mount Current Sensors CURRENT SENSOR ( 3A; 15V)
+K
+F https://www.tamuracorp.com/clientuploads/pdfs/engineeringdocs/L18PXXXD15.pdf
+$ENDCMP
+#
+$CMP TS360ILS_R1_00001
+D Schottky Diodes & Rectifiers MICRO SURFACE MOUNT SCHOTTKY BRIDGE 60V 3A TDI
+K
+F https://www.mouser.co.id/datasheet/2/1057/TS360ILS-1877238.pdf
+$ENDCMP
+#
+#End Doc Library

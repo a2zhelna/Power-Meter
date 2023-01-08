@@ -1,0 +1,16 @@
+.KMB28STR :1 ;BRIDGE RECT 1PHASE 80V 2A MBS
+SOP250P700X290-4N
+*STM BR
+*NGS
+*PLB 1="+" 2="-" 3="~_1" 4="~_2"
+*MXP 4
+*DFN KMB28STR
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (SMC Diode Solutions)
+~!Manufacturer_Part_Number (KMB28STR)
+~!Link Datasheet (http://www.smc-diodes.com/propdf/KMB22S%20THRU%20KMB225S%20N1952%20REV.A.pdf)
+~!Height (2.9mm)
+~!3D_Model (KMB28STR)
+KMB28STR
+1.1!U 2.1!U 4.1!U 3.1!U 

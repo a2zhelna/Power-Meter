@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TS360ILS_R1_00001"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-13-09:06:27)
+    (mountForm default
+        (footprintRef "SOP400P650X145-4N")
+        (spec "System")
+    )
+)

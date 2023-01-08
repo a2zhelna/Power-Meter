@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS\CurrentSense_PS.kicad_sch</source>
+    <date>11/14/2022 1:20:52 PM</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CurrentSense_PS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BR1">
+      <value>KMB28STR</value>
+      <footprint>KMB28STR_FP:SOP250P700X290-4N</footprint>
+      <datasheet>http://www.smc-diodes.com/propdf/KMB22S%20THRU%20KMB225S%20N1952%20REV.A.pdf</datasheet>
+      <fields>
+        <field name="Description">BRIDGE RECT 1PHASE 80V 2A MBS</field>
+        <field name="Height">2.9</field>
+        <field name="Manufacturer_Name">SMC Diode Solutions</field>
+        <field name="Manufacturer_Part_Number">KMB28STR</field>
+      </fields>
+      <libsource lib="KMB28STR" part="KMB28STR" description="BRIDGE RECT 1PHASE 80V 2A MBS"/>
+      <property name="Description" value="BRIDGE RECT 1PHASE 80V 2A MBS"/>
+      <property name="Height" value="2.9"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="SMC Diode Solutions"/>
+      <property name="Manufacturer_Part_Number" value="KMB28STR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65682736-379e-45e7-a895-f2ceb076495b</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>C_Polarized</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c6aa026-debf-4f9d-83ff-7bf86cc1be9e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C_Polarized</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>061302e4-4fe1-4c81-a91e-423c604a673a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>C_Polarized</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>beeb20a4-6540-45fc-beaa-cad554744ab1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C_Polarized</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3f45e88-9bcd-48ab-8a8f-3f3d26c2dc12</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>C_Polarized</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3d11016-8878-4fd2-8b02-461b7ce954a8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>C_Polarized</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>681caf70-a146-43b7-a468-93e1d36af0ba</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>C_Polarized</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ac72365-75ce-4c72-96e1-5519e9ecb074</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0421b4bb-782c-433b-8343-8b92d9018305</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.01</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d62d3cd-1146-4085-a511-b46d1de58db5</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>120291e2-7563-4230-b95b-235bd92fbdab</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.01</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>732d4d9c-5ab6-49d8-a4d9-7518bfc67611</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1.0</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dac076b9-7b6e-49c9-ad0c-27a339716ad9</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>4.7uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04f7c257-82ff-48df-8e2d-0a9f0407554e</tstamps>
+    </comp>
+    <comp ref="CR1">
+      <value>LD1085V50</value>
+      <footprint>LD1085V50_FP:LD1085V50</footprint>
+      <libsource lib="LD1085V50" part="LD1085V50" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>494d3be9-0f0e-48d3-84fc-23af75d5e7bf</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5c54493-50c1-446c-9613-a0cfbc35a5ce</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c031fe68-e247-4928-b9ef-7a84bbe1b92e</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99aaaf43-eaf4-4eb0-b656-4a4a5ac09063</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3ab5874-8e09-44b4-b086-bd8b5b959b31</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3696da62-c23e-4852-808a-7fcc19ac902a</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a121b68d-d47c-4cb7-85b2-eafee29f8450</tstamps>
+    </comp>
+    <comp ref="DN1">
+      <value>S16-4148E3/TR7</value>
+      <footprint>S16-4148E3_TR7u_FP:SOIC127P599X195-16N</footprint>
+      <fields>
+        <field name="A1_MIN">0.1</field>
+        <field name="A_MAX">1.95</field>
+        <field name="A_MIN">1.95</field>
+        <field name="A_NOM">1.95</field>
+        <field name="B_MAX">0.53</field>
+        <field name="B_MIN">0.28</field>
+        <field name="B_NOM">0.405</field>
+        <field name="D2_MAX">0.0</field>
+        <field name="D_MAX">10.1</field>
+        <field name="D_MIN">9.09</field>
+        <field name="D_NOM">9.595</field>
+        <field name="E1_MAX">4.01</field>
+        <field name="E1_MIN">3.81</field>
+        <field name="E1_NOM">3.91</field>
+        <field name="E2_MAX">0.0</field>
+        <field name="ENOM">1.27</field>
+        <field name="E_MAX">6.19</field>
+        <field name="E_MIN">5.79</field>
+        <field name="E_NOM">5.99</field>
+        <field name="L_MAX">1.27</field>
+        <field name="L_MIN">0.41</field>
+        <field name="L_NOM">0.84</field>
+        <field name="MANUFACTURER">Microsemi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.95mm</field>
+        <field name="PARTREV">G</field>
+        <field name="PIN_COUNT">16.0</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="S16-4148E3_TR7" part="S16-4148E3{slash}TR7" description=""/>
+      <property name="D_NOM" value="9.595"/>
+      <property name="D2_MAX" value="0.0"/>
+      <property name="PIN_COUNT" value="16.0"/>
+      <property name="B_MIN" value="0.28"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.95mm"/>
+      <property name="A_MIN" value="1.95"/>
+      <property name="DMAX" value=""/>
+      <property name="L_MAX" value="1.27"/>
+      <property name="E_NOM" value="5.99"/>
+      <property name="EMIN" value=""/>
+      <property name="ENOM" value="1.27"/>
+      <property name="L_NOM" value="0.84"/>
+      <property name="E2_MAX" value="0.0"/>
+      <property name="EMAX" value=""/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="A_MAX" value="1.95"/>
+      <property name="E_MAX" value="6.19"/>
+      <property name="VACANCIES" value=""/>
+      <property name="E_MIN" value="5.79"/>
+      <property name="D_MIN" value="9.09"/>
+      <property name="D_MAX" value="10.1"/>
+      <property name="A1_MIN" value="0.1"/>
+      <property name="B_NOM" value="0.405"/>
+      <property name="L1_NOM" value=""/>
+      <property name="PACKAGE_TYPE" value=""/>
+      <property name="L1_MAX" value=""/>
+      <property name="L_MIN" value="0.41"/>
+      <property name="D1_NOM" value=""/>
+      <property name="L1_MIN" value=""/>
+      <property name="E1_NOM" value="3.91"/>
+      <property name="PINS" value=""/>
+      <property name="D1_MIN" value=""/>
+      <property name="PARTREV" value="G"/>
+      <property name="DNOM" value=""/>
+      <property name="D1_MAX" value=""/>
+      <property name="A_NOM" value="1.95"/>
+      <property name="B_MAX" value="0.53"/>
+      <property name="DMIN" value=""/>
+      <property name="E1_MAX" value="4.01"/>
+      <property name="MANUFACTURER" value="Microsemi"/>
+      <property name="SNAPEDA_PACKAGE_ID" value=""/>
+      <property name="E1_MIN" value="3.81"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3108bda-cfc1-48a5-a4b7-4c067d745fb1 925470c2-294e-4ce6-8144-1b2b7eb30cc4 93a28de5-ea09-423d-89ca-70e6bdab2801 6ec850b2-0e49-4029-b970-dfa780b8bba7 d9a97bc0-8907-4f39-b3c4-b892bc218b58 cc564337-b915-4b9c-8d50-afc755f3ca75 c9653acc-cb93-46d0-ba1c-382a95b5d532 5c932826-1e0e-4823-82d3-f73224e786f8</tstamps>
+    </comp>
+    <comp ref="DN2">
+      <value>S16-4148E3/TR7</value>
+      <footprint>S16-4148E3_TR7u_FP:SOIC127P599X195-16N</footprint>
+      <fields>
+        <field name="A1_MIN">0.1</field>
+        <field name="A_MAX">1.95</field>
+        <field name="A_MIN">1.95</field>
+        <field name="A_NOM">1.95</field>
+        <field name="B_MAX">0.53</field>
+        <field name="B_MIN">0.28</field>
+        <field name="B_NOM">0.405</field>
+        <field name="D2_MAX">0.0</field>
+        <field name="D_MAX">10.1</field>
+        <field name="D_MIN">9.09</field>
+        <field name="D_NOM">9.595</field>
+        <field name="E1_MAX">4.01</field>
+        <field name="E1_MIN">3.81</field>
+        <field name="E1_NOM">3.91</field>
+        <field name="E2_MAX">0.0</field>
+        <field name="ENOM">1.27</field>
+        <field name="E_MAX">6.19</field>
+        <field name="E_MIN">5.79</field>
+        <field name="E_NOM">5.99</field>
+        <field name="L_MAX">1.27</field>
+        <field name="L_MIN">0.41</field>
+        <field name="L_NOM">0.84</field>
+        <field name="MANUFACTURER">Microsemi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.95mm</field>
+        <field name="PARTREV">G</field>
+        <field name="PIN_COUNT">16.0</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="S16-4148E3_TR7" part="S16-4148E3{slash}TR7" description=""/>
+      <property name="D_NOM" value="9.595"/>
+      <property name="D2_MAX" value="0.0"/>
+      <property name="PIN_COUNT" value="16.0"/>
+      <property name="B_MIN" value="0.28"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.95mm"/>
+      <property name="A_MIN" value="1.95"/>
+      <property name="DMAX" value=""/>
+      <property name="L_MAX" value="1.27"/>
+      <property name="E_NOM" value="5.99"/>
+      <property name="EMIN" value=""/>
+      <property name="ENOM" value="1.27"/>
+      <property name="L_NOM" value="0.84"/>
+      <property name="E2_MAX" value="0.0"/>
+      <property name="EMAX" value=""/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="A_MAX" value="1.95"/>
+      <property name="E_MAX" value="6.19"/>
+      <property name="VACANCIES" value=""/>
+      <property name="E_MIN" value="5.79"/>
+      <property name="D_MIN" value="9.09"/>
+      <property name="D_MAX" value="10.1"/>
+      <property name="A1_MIN" value="0.1"/>
+      <property name="B_NOM" value="0.405"/>
+      <property name="L1_NOM" value=""/>
+      <property name="PACKAGE_TYPE" value=""/>
+      <property name="L1_MAX" value=""/>
+      <property name="L_MIN" value="0.41"/>
+      <property name="D1_NOM" value=""/>
+      <property name="L1_MIN" value=""/>
+      <property name="E1_NOM" value="3.91"/>
+      <property name="PINS" value=""/>
+      <property name="D1_MIN" value=""/>
+      <property name="PARTREV" value="G"/>
+      <property name="DNOM" value=""/>
+      <property name="D1_MAX" value=""/>
+      <property name="A_NOM" value="1.95"/>
+      <property name="B_MAX" value="0.53"/>
+      <property name="DMIN" value=""/>
+      <property name="E1_MAX" value="4.01"/>
+      <property name="MANUFACTURER" value="Microsemi"/>
+      <property name="SNAPEDA_PACKAGE_ID" value=""/>
+      <property name="E1_MIN" value="3.81"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32a9f315-3d54-4763-b346-153930c7333f c17ab648-8d2f-4bb0-8364-e9013edcbbc5 9bc6ad72-76eb-40de-a8a3-3d93356cddd6 e578f598-cd7e-42c0-ae6c-3c8d70461629 3ee43678-2ae0-41e5-904b-e5f52fa71d02 c7fb4396-2683-4e94-bb22-82d860d0e269 a4f8baa7-b121-40b3-95b8-3be69430da65 04cb92d4-3acb-4540-8928-be86f3ae3d15</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01f7f52c-90d2-4940-89a3-73cab921de9f</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>0.3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>874ead29-d8ab-4d24-a998-dbb25bdffd15</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>0.3A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e61a5ea3-65d9-4da9-bdb5-b0b2f8a3f885</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b91aeb3-5454-4a64-8e20-7092fb067814</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7522f2bc-884e-45de-86b6-2e1c3dc6445e</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04914f5e-5101-469a-9a99-4e5aa7fb9d60</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>507c3b44-9595-47fe-b189-e29cbcadf54f</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>TS360ILS_R1_00001</value>
+      <footprint>TS360ILS_R1_00001_FP:SOP400P650X145-4N</footprint>
+      <datasheet>https://www.mouser.co.id/datasheet/2/1057/TS360ILS-1877238.pdf</datasheet>
+      <fields>
+        <field name="Description">Schottky Diodes &amp; Rectifiers MICRO SURFACE MOUNT SCHOTTKY BRIDGE 60V 3A TDI</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">PANJIT</field>
+        <field name="Manufacturer_Part_Number">TS360ILS_R1_00001</field>
+        <field name="Mouser Part Number">241-TS360ILSR100001</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panjit/TS360ILS_R1_00001?qs=sPbYRqrBIVlciIw6xf5DwA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TS360ILS_R1_00001" description="Schottky Diodes &amp; Rectifiers MICRO SURFACE MOUNT SCHOTTKY BRIDGE 60V 3A TDI"/>
+      <property name="Description" value="Schottky Diodes &amp; Rectifiers MICRO SURFACE MOUNT SCHOTTKY BRIDGE 60V 3A TDI"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="241-TS360ILSR100001"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Panjit/TS360ILS_R1_00001?qs=sPbYRqrBIVlciIw6xf5DwA%3D%3D"/>
+      <property name="Manufacturer_Name" value="PANJIT"/>
+      <property name="Manufacturer_Part_Number" value="TS360ILS_R1_00001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92622165-ac4e-4055-b961-6b32eb00d38a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>282834-2</value>
+      <footprint>282834-2_FP:282834-2</footprint>
+      <libsource lib="282834-2" part="282834-2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad24e188-cf4f-4460-bcac-d432bf6c4de4</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>282834-4</value>
+      <footprint>282834-4_FP:282834-4</footprint>
+      <libsource lib="282834-4" part="282834-4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a33f3436-fa35-407c-b3c3-b5aacb5696d7</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>282834-3</value>
+      <footprint>282834-3_FP:282834-3</footprint>
+      <libsource lib="282834-3" part="282834-3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99d2ee1a-9f38-477f-88bc-ab54e7fbcbdb</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>282834-3</value>
+      <footprint>282834-3_FP:282834-3</footprint>
+      <libsource lib="282834-3" part="282834-3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6074399f-2de9-4fce-bb0a-786bed948063</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>282834-3</value>
+      <footprint>282834-3_FP:282834-3</footprint>
+      <libsource lib="282834-3" part="282834-3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e5f543c-6355-4907-b8ae-a7cf0d77b433</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>INDUCTOR</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cb5b912-b9bc-42e4-b504-d44baf0fefd6</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>INDUCTOR</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>402087bf-a707-4f18-9ef8-853a27992c2b</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>INDUCTOR</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c79557e9-8e53-4f41-93fe-cb80df391ec5</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>INDUCTOR</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>690ff37f-d504-4168-90f1-dd47bd4d5f25</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>INDUCTOR</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d2d2b8a-e35a-4834-a2ba-f0f7529cafa0</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>INDUCTOR</value>
+      <footprint>Inductor_SMD:L_1206_3216Metric</footprint>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dec945ea-1e07-42c7-89e6-cf3285bb1f8c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92f95f55-7bef-41ea-a34e-2081fdfc098d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R_US</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe0eaf1c-dec1-4ca1-a5c3-deabde226e47</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R_US</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1f17081-5c5c-4bc4-bd7e-5e7238b1c064</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R_US</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f58db873-82c9-4e4f-86b9-2ca9c5dcd8db</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R_US</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd9c04fd-1ff8-462f-bed9-8adb986824ab</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R_US</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d8d64fd-d65d-446e-b0f8-05cc8cb076eb</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R_US</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>969f9fd1-cafc-4c4b-9a03-5333aa07f475</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AP2112K-3.3TRG1</value>
+      <footprint>AP2112K-3-3TRG1_FP:AP2112K-3.3TRG1</footprint>
+      <libsource lib="AP2112K-3-3TRG1" part="AP2112K-3.3TRG1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4b41970-913d-4633-9c2a-9bf42e0ac5fc</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM340T-15</value>
+      <footprint>LM340T-15_FP:LM340T-15</footprint>
+      <libsource lib="LM340T-15" part="LM340T-15" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79b04524-1e46-4ec7-b7bb-6e0fef1b92ff</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LM320T-15/NOPB</value>
+      <footprint>LM320T-15-NOPB_FP:LM320T-15&amp;slash_NOPB</footprint>
+      <libsource lib="LM320T-15-NOPB" part="LM320T-15{slash}NOPB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fad3bf85-4ed3-4469-bdf3-fe4331677001</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LP2989IMX-5.0/NOPB</value>
+      <footprint>LP2989IMX-5_FP:SOIC127P599X175-8N</footprint>
+      <libsource lib="LP2989IMX-5.0_NOPB" part="LP2989IMX-5.0{slash}NOPB" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc0c7aa0-23c7-4855-989f-a419b7243a32</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>UCC384DP-5</value>
+      <footprint>UCC384DP-5_FP:SOIC127P599X175-8N</footprint>
+      <libsource lib="UCC384DP-5" part="UCC384DP-5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CurrentSense_PS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c86dd18d-f708-4618-864f-948ecc345911</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="282834-2" part="282834-2">
+      <footprints>
+        <fp>CONN2_282834-2_TEC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">282834-2</field>
+        <field name="Footprint">CONN2_282834-2_TEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="282834-3" part="282834-3">
+      <footprints>
+        <fp>CONN_282834-3_TYC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">282834-3</field>
+        <field name="Footprint">CONN_282834-3_TYC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="282834-4" part="282834-4">
+      <footprints>
+        <fp>CONN4_282834-4_TEC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">282834-4</field>
+        <field name="Footprint">CONN4_282834-4_TEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="AP2112K-3-3TRG1" part="AP2112K-3.3TRG1">
+      <footprints>
+        <fp>SOT_RG1_DIO</fp>
+        <fp>SOT_RG1_DIO-M</fp>
+        <fp>SOT_RG1_DIO-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">AP2112K-3.3TRG1</field>
+        <field name="Footprint">SOT_RG1_DIO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="unspecified"/>
+        <pin num="2" name="GND" type="unspecified"/>
+        <pin num="3" name="EN" type="unspecified"/>
+        <pin num="4" name="NC" type="unspecified"/>
+        <pin num="5" name="VOUT" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KMB28STR" part="KMB28STR">
+      <description>BRIDGE RECT 1PHASE 80V 2A MBS</description>
+      <docs>http://www.smc-diodes.com/propdf/KMB22S%20THRU%20KMB225S%20N1952%20REV.A.pdf</docs>
+      <fields>
+        <field name="Reference">BR</field>
+        <field name="Value">KMB28STR</field>
+        <field name="Footprint">SOP250P700X290-4N</field>
+        <field name="Datasheet">http://www.smc-diodes.com/propdf/KMB22S%20THRU%20KMB225S%20N1952%20REV.A.pdf</field>
+        <field name="Description">BRIDGE RECT 1PHASE 80V 2A MBS</field>
+        <field name="Height">2.9</field>
+        <field name="Manufacturer_Name">SMC Diode Solutions</field>
+        <field name="Manufacturer_Part_Number">KMB28STR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="~{_1}" type="passive"/>
+        <pin num="4" name="~{_2}" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LD1085V50" part="LD1085V50">
+      <footprints>
+        <fp>TO-220_STM</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CR?</field>
+        <field name="Value">LD1085V50</field>
+        <field name="Footprint">TO-220_STM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ/GND" type="power_in"/>
+        <pin num="2" name="OUTPUT" type="output"/>
+        <pin num="3" name="INPUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM320T-15-NOPB" part="LM320T-15{slash}NOPB">
+      <footprints>
+        <fp>T03B_TEX</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">LM320T-15/NOPB</field>
+        <field name="Footprint">LM320T-15-NOPB_FP:LM320T-15&amp;slash_NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="OUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM340T-15" part="LM340T-15">
+      <footprints>
+        <fp>T03B_TEX</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">LM340T-15</field>
+        <field name="Footprint">LM340T-15_FP:LM340T-15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LP2989IMX-5.0_NOPB" part="LP2989IMX-5.0{slash}NOPB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP2989IMX-5.0{slash}NOPB</field>
+        <field name="Footprint">SOIC127P599X175-8N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BYPASS" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="INPUT" type="input"/>
+        <pin num="5" name="OUTPUT" type="output"/>
+        <pin num="6" name="SENSE" type="input"/>
+        <pin num="7" name="~{ERROR}" type="input"/>
+        <pin num="8" name="~{SHUTDOWN}" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="S16-4148E3_TR7" part="S16-4148E3{slash}TR7">
+      <fields>
+        <field name="Reference">DN</field>
+        <field name="Value">S16-4148E3{slash}TR7</field>
+        <field name="Footprint">SOIC127P599X195-16N</field>
+        <field name="D_NOM">9.595</field>
+        <field name="D2_MAX">0.0</field>
+        <field name="PIN_COUNT">16.0</field>
+        <field name="B_MIN">0.28</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.95mm</field>
+        <field name="A_MIN">1.95</field>
+        <field name="L_MAX">1.27</field>
+        <field name="E_NOM">5.99</field>
+        <field name="ENOM">1.27</field>
+        <field name="L_NOM">0.84</field>
+        <field name="E2_MAX">0.0</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="A_MAX">1.95</field>
+        <field name="E_MAX">6.19</field>
+        <field name="E_MIN">5.79</field>
+        <field name="D_MIN">9.09</field>
+        <field name="D_MAX">10.1</field>
+        <field name="A1_MIN">0.1</field>
+        <field name="B_NOM">0.405</field>
+        <field name="L_MIN">0.41</field>
+        <field name="E1_NOM">3.91</field>
+        <field name="PARTREV">G</field>
+        <field name="A_NOM">1.95</field>
+        <field name="B_MAX">0.53</field>
+        <field name="E1_MAX">4.01</field>
+        <field name="MANUFACTURER">Microsemi</field>
+        <field name="E1_MIN">3.81</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="13" name="" type="passive"/>
+        <pin num="14" name="" type="passive"/>
+        <pin num="15" name="" type="passive"/>
+        <pin num="16" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TS360ILS_R1_00001">
+      <description>Schottky Diodes &amp; Rectifiers MICRO SURFACE MOUNT SCHOTTKY BRIDGE 60V 3A TDI</description>
+      <docs>https://www.mouser.co.id/datasheet/2/1057/TS360ILS-1877238.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TS360ILS_R1_00001</field>
+        <field name="Footprint">SOP400P650X145-4N</field>
+        <field name="Datasheet">https://www.mouser.co.id/datasheet/2/1057/TS360ILS-1877238.pdf</field>
+        <field name="Description">Schottky Diodes &amp; Rectifiers MICRO SURFACE MOUNT SCHOTTKY BRIDGE 60V 3A TDI</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">241-TS360ILSR100001</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panjit/TS360ILS_R1_00001?qs=sPbYRqrBIVlciIw6xf5DwA%3D%3D</field>
+        <field name="Manufacturer_Name">PANJIT</field>
+        <field name="Manufacturer_Part_Number">TS360ILS_R1_00001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="~{_1}" type="passive"/>
+        <pin num="4" name="~{_2}" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UCC384DP-5" part="UCC384DP-5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">UCC384DP-5</field>
+        <field name="Footprint">SOIC127P599X175-8N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUTS" type="output"/>
+        <pin num="2" name="VIN" type="input"/>
+        <pin num="3" name="VIN" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="VOUT" type="output"/>
+        <pin num="6" name="VIN" type="input"/>
+        <pin num="7" name="VIN" type="input"/>
+        <pin num="8" name="SD/CT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Inductor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="282834-2">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/282834-2/KiCAD/2022-11-08_20-09-15/2022-11-08_20-09-15.lib</uri>
+    </library>
+    <library logical="282834-3">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/282834-3/KiCAD/2022-11-08_19-10-55/2022-11-08_19-10-55.lib</uri>
+    </library>
+    <library logical="282834-4">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/282834-4/KiCAD/2022-11-08_18-26-31/2022-11-08_18-26-31.lib</uri>
+    </library>
+    <library logical="AP2112K-3-3TRG1">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/AP2112K-3-3TRG1/KiCAD/2022-11-07_20-57-51/2022-11-07_20-57-51.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="KMB28STR">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/KMB28STR/KiCad/KMB28STR.lib</uri>
+    </library>
+    <library logical="LD1085V50">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/LD1085V50/KiCAD/2022-11-07_20-40-51/2022-11-07_20-40-51.lib</uri>
+    </library>
+    <library logical="LM320T-15-NOPB">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/LM320T-15-NOPB/KiCAD/2022-11-08_00-54-04/2022-11-08_00-54-04.lib</uri>
+    </library>
+    <library logical="LM340T-15">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/LM340T-15/KiCAD/2022-11-08_00-51-55/2022-11-08_00-51-55.lib</uri>
+    </library>
+    <library logical="LP2989IMX-5.0_NOPB">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/LP2989IMX-5.0_NOPB/LP2989IMX-5.0_NOPB.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="S16-4148E3_TR7">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/S16-4148E3_TR7u/S16-4148E3_TR7.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/LibraryLoader/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="UCC384DP-5">
+      <uri>C:\Users\anthony\OneDrive - University of Waterloo\Tessonics2\Projects\MiddleMan\Schematics\CurrentSense_PS/project_library/UCC384DP-5/UCC384DP-5.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3.3VDD">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VOUT" pintype="unspecified"/>
+    </net>
+    <net code="2" name="/+5VAA">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="OUTPUT" pintype="output"/>
+      <node ref="U4" pin="6" pinfunction="SENSE" pintype="input"/>
+    </net>
+    <net code="3" name="/+5VDD">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="CR1" pin="2" pinfunction="OUTPUT" pintype="output"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VIN" pintype="unspecified"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/+9VAA">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="DN1" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="INPUT" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="~{SHUTDOWN}" pintype="input"/>
+    </net>
+    <net code="5" name="/+15VAA">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="DN1" pin="9" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="OUT" pintype="power_in"/>
+    </net>
+    <net code="6" name="/-5VAA">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="VOUTS" pintype="output"/>
+      <node ref="U5" pin="5" pinfunction="VOUT" pintype="output"/>
+    </net>
+    <net code="7" name="/-9VAA">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="DN2" pin="9" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="VIN" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="VIN" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="VIN" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="8" name="/-15VAA">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="DN2" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="OUT" pintype="power_in"/>
+    </net>
+    <net code="9" name="GNDA">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="L5" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="L6" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="10" name="GNDD">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="CR1" pin="1" pinfunction="ADJ/GND" pintype="power_in"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="L4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="L5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="L6" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="11" name="Net-(BR1-Pad1)">
+      <node ref="BR1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(BR1-Pad2)">
+      <node ref="BR1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="13" name="Net-(BR1-Pad3)">
+      <node ref="BR1" pin="3" pinfunction="~{_1}" pintype="passive"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(BR1-Pad4)">
+      <node ref="BR1" pin="4" pinfunction="~{_2}" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="CR1" pin="3" pinfunction="INPUT" pintype="input"/>
+      <node ref="IC1" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="BYPASS" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="SD/CT" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(DN1-Pad10)">
+      <node ref="DN1" pin="10" pintype="passive"/>
+      <node ref="DN1" pin="8" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(DN1-Pad11)">
+      <node ref="DN1" pin="11" pintype="passive"/>
+      <node ref="DN1" pin="7" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(DN1-Pad12)">
+      <node ref="DN1" pin="12" pintype="passive"/>
+      <node ref="DN1" pin="6" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(DN1-Pad13)">
+      <node ref="DN1" pin="13" pintype="passive"/>
+      <node ref="DN1" pin="5" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(DN1-Pad14)">
+      <node ref="DN1" pin="14" pintype="passive"/>
+      <node ref="DN1" pin="4" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(DN1-Pad15)">
+      <node ref="DN1" pin="15" pintype="passive"/>
+      <node ref="DN1" pin="3" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(DN1-Pad16)">
+      <node ref="DN1" pin="16" pintype="passive"/>
+      <node ref="DN1" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(DN2-Pad10)">
+      <node ref="DN2" pin="10" pintype="passive"/>
+      <node ref="DN2" pin="8" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(DN2-Pad11)">
+      <node ref="DN2" pin="11" pintype="passive"/>
+      <node ref="DN2" pin="7" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(DN2-Pad12)">
+      <node ref="DN2" pin="12" pintype="passive"/>
+      <node ref="DN2" pin="6" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(DN2-Pad13)">
+      <node ref="DN2" pin="13" pintype="passive"/>
+      <node ref="DN2" pin="5" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(DN2-Pad14)">
+      <node ref="DN2" pin="14" pintype="passive"/>
+      <node ref="DN2" pin="4" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(DN2-Pad15)">
+      <node ref="DN2" pin="15" pintype="passive"/>
+      <node ref="DN2" pin="3" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(DN2-Pad16)">
+      <node ref="DN2" pin="16" pintype="passive"/>
+      <node ref="DN2" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="39" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="~{_2}" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="41" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="42" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="~{_1}" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="43" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="~{ERROR}" pintype="input"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>
