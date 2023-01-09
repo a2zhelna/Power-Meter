@@ -4,6 +4,8 @@
 
 ![PowerMeterUnRotated.jpg](Images/PowerMeterUnRotated.jpg)
 
+Demo video: https://www.dropbox.com/s/2afd6wcfme4bhvw/PowerMeterDemo.mp4?dl=0
+
 This is a DC power meter, which utilizes an ESP32 to host an access point, which a user on a browser can connect to and view real-time data from. It utilizes FreeRTOS to make use of the ESP32’s dual core architecture for reading and uploading data in parallel.
 
 The inner 16-bit ADC chip (ADS8331), responsible for making all of the measurements, is capable of making 500k samples per second, but for the graphical data-visualisation method I am using and simplicity of the program, I found that maxing out at about 1k samples per second worked and looked just fine (the task scheduler of the ESP32 runs 1000 times a second, so I corresponded it to that).
