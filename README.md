@@ -116,7 +116,7 @@ To summarize, there’s virtually always a <1% magnitude deviation from the FLUK
 
 ### Voltage Burden
 
-For the low current measurement circuit, there’s a pretty much ignorable voltage drop across it, due to the low current it's meant for.
+For the low current measurement circuit, the highest possible voltage drop across it is insignificant, due to the low current it's meant for.
 
 For the high current measurement circuit however, there’s about 100mOhms from the overcurrent relay and hall effect sensor, and there’s about 45mOhms from the wires connecting the unit’s sockets to the actual power meter PCB. To give an idea on the effect this has, at 7.5A, it results in a ~1V drop across those elements. 
 The ADC actually measures the burden across the relay and hall effect, but as for the wires’ burden, an estimation is calculated. These voltages are then subtracted from the measured power supply voltage to give the voltage across the sockets that the unit connects to. On top of that, there’s an option to specify resistance of the leads that connect to the unit. Using the measured current, more voltage burden is calculated and subtracted from the power supply voltage 
