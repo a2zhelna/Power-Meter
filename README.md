@@ -98,19 +98,19 @@ To summarize, there’s virtually always a <1% magnitude deviation from the FLUK
 
 ![Current at 20mA range setting](Images/Untitled.png)
 
-| Current at 20mA range setting
+> Current at 20mA range setting
 
 ![Current at 7.5A range setting](Images/Untitled%201.png)
 
-| Current at 7.5A range setting
+> Current at 7.5A range setting
 
 ![Voltage (No Load)](Images/Untitled%202.png)
 
-| Voltage (No Load)
+> Voltage (No Load)
 
 ![Voltage (at UNIT+ and HIGH CURRENT IN sockets) with 1Ohm Load](Images/Untitled%203.png)
 
-| Voltage (at UNIT+ and HIGH CURRENT IN sockets) with 1Ohm Load
+> Voltage (at UNIT+ and HIGH CURRENT IN sockets) with 1Ohm Load
 
 ---
 
