@@ -84,7 +84,7 @@ The PS voltage, low-current, high-current, and offset/burden voltage measurement
 
 ### Power Supply
 
-This device has its own power supply connected to the main 115VAC outlet. Utilizing a transformer, linear regulators and buck converter, it provides 5V and 3.3V for digital circuits, and a separate 5V, -5Va, 15Va and -15Va for analog circuits. The main reason for this is to have access to low-noise analog supply voltages, so that the output of the hall effect current sensor is clean and the ADC makes measurements as accurately as possible.
+This device has its own power supply which connects to the main 115VAC outlet. Utilizing a transformer, linear regulators and buck converter, it provides 5V and 3.3V for digital circuits, and a separate 5V, -5Va, 15Va and -15Va for analog circuits. The main reason for this is to have access to low-noise analog supply voltages, so that the output of the hall effect current sensor is clean and the ADC makes measurements as accurately as possible.
 
 Both the power supply and the power meter PCBs utilize inductors to minimize noise on the analog line due to the digital line. The ESP32 µC sometimes requires a lot of current (upwards of 240mA), and supplying this using a linear regulator is not efficient and requires a large heatsink + constant airflow. I instead used a buck converter for this purpose, who’s output produces noise on the digital line which is “filtered” by these inductors.
 
